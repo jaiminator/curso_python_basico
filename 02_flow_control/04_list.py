@@ -27,8 +27,20 @@ lista_num = [1, 2, 3, 4, 5]
 print(lista_num[1:4])
 print(lista_num[:3])
 print(lista_num[:])
+print(lista_num[::-1])
 
 #'Paso' añadido
 lista_num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(lista_num[::2]) #números impares de la lista
 print(lista_num[1::2]) #números pares de la lista
+
+# Modificar listas
+lista_num[0] = 12
+print(lista_num)
+
+# Añadir elementos a la lista
+lista_num += [11, 14, 15] # forma más eficiente que 'lista_num = lista_num + [12, 14, 15]'
+print(lista_num)
+
+# Devolver la longitud de una lista
+print("Esta lista contiene", len(lista_num), "elementos")
