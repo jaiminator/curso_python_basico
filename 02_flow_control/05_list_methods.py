@@ -21,7 +21,7 @@ print(lista1)
 lista1.clear() # Elimina todos los elementos de la lista
 print(lista1)
 
-# Elimina un rango de elementos
+# Elimina un rango de elementos (slicing)
 lista1 = [1, 2, 3, 4, 5]
 del lista1[2:] # Elimina los elementos desde la posición '2' hasta el final
 print(lista1)
